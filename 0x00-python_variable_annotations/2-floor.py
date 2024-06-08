@@ -7,5 +7,5 @@ import math
 
 
 def floor(n: float) -> int:
-  """Finds the floor of a number"""
-  return math.floor(n)
+    """Finds the floor of a number"""
+    return math.floor(n)
