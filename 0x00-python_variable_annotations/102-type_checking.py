@@ -5,13 +5,15 @@ Script that returns a tuple
 
 from typing import List, Tuple
 
+
 def zoom_array(lst: List[int], factor: int = 2) -> List[int]:
-    """Returns a list of integers multiplied by a factor"""
-    zoomed_in: List[int] = [
-        item for item in lst
-        for i in range(factor)
-    ]
-    return zoomed_in
+	"""Returns a list of integers multiplied by a factor"""
+	zoomed_in: List[int] = [
+		item for item in lst
+		for i in range(factor)
+	]
+	return zoomed_in
+
 
 array = [12, 72, 91]
 
